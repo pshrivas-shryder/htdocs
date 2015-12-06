@@ -156,7 +156,7 @@ a.fa.fa-angle-down:hover{
 }
 /* About Section */
 #tf-about{
-	padding: 30px 0;
+	padding: 40px 0;
 }
 ul.about-list{ margin: 30px 0 0 ;}
 ul.about-list li{
@@ -326,7 +326,12 @@ img.img-circle.team-img {
 /* Gallery Section 
 ==============================*/
 #tf-works{
-	padding: 80px 0;
+	background: url(../img/Showcase13.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 50px 0;
 }
 .categories{ 
 	padding: 10px 0;
@@ -433,6 +438,23 @@ ol.type li a.active { font-weight: 700; }
 	border-radius: 50%;
 	color: #FCAC45;
 }
+
+#work {
+	padding: 0px 0;
+}
+#work .item{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#work .item p {
+	font-weight: 400;
+	margin: 0px 0;
+	color: #d1d1d1;
+}
+
+
 /* Testimonials Section */
 #tf-testimonials{
 	background: url(../img/05.jpg);
